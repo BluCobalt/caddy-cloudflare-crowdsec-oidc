@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "gomod"
+    directory: "/build"
+    schedule:
+      interval: "weekly"
+    groups:
+      caddy-modules:
+        patterns:
+          - "*"
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      caddy-images:
+        patterns:
+          - "caddy"
