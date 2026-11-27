@@ -8,7 +8,7 @@ require (
 	github.com/caddyserver/transform-encoder v0.0.0-20260423033309-ba4124974830
 	github.com/hslatman/caddy-crowdsec-bouncer v0.15.0
 	github.com/mholt/caddy-l4 v0.1.3
-	github.com/relvacode/caddy-oidc v0.4.3
+	github.com/relvacode/caddy-oidc v0.4.5
 )
 
 require (
